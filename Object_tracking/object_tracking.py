@@ -30,5 +30,5 @@ while True:
         cv2.putText(frame, 'Error', (100, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
     cv2.imshow('Tracking', frame)
-    if cv2.waitKey(1) & 0XFF == 27:  # ESC key
+    if cv2.waitKey(1) & 0XFF == 27:  # ESC key 
         break
